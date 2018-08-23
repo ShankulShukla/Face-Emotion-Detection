@@ -25,8 +25,8 @@ The facial emotion detection model is based on three layer convolution plus two 
 ## How to Use-
 
 - Clone the repo
-- For custom training- python train.py
-- For webcam testing- python test.py
+- For custom training- run train.ipynb
+- For webcam testing- run test.ipynb
 
 ## Note- 
 
