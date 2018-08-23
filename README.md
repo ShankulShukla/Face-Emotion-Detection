@@ -14,7 +14,7 @@ The facial emotion detection model is based on three layer convolution plus two 
 
 - To remove above problem I tried some basic data augmentaion with low frequency classes but the result were not that mush satisfying in tested epochs/steps.
 
-- Created model by training for 200 epochs.
+- Created model by training for 230 epochs.
 
 - As the model is trained on 48*48 images, for deploying this model to webcam live input we have to apply some preprocessing also.
 
