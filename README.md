@@ -8,7 +8,7 @@ The facial emotion detection model is based on three layer convolution plus two 
 > Architecture - 
 ![](Images/img.png)
 
-- Model created using [Fer2013 datset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
+- Model created using [Fer2013 dataset](https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge/data)
 
 - The Dataset is quite unbalanced with very few representation of *disgust* class.
 
@@ -16,9 +16,9 @@ The facial emotion detection model is based on three layer convolution plus two 
 
 - Created model by training for 200 epochs.
 
-- As the model is trained on 48*48 images for deploying this image to webcam live input we have to apply some preprocessing also.
+- As the model is trained on 48*48 images, for deploying this model to webcam live input we have to apply some preprocessing also.
 
-- So, from input web-cam feed I used face haar-cascades to extract out the images of faces.
+- So, from input web-cam feed I used face haar-cascades to extract out the images of faces at continuous time frames.
 
 - Then I reshaped the images at each time frame to 48*48 and decolourised them to make web-cam input analogous to the images its been trained on.
 
