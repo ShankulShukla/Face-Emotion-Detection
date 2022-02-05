@@ -2,6 +2,10 @@
 
 Identifying facial emotions i.e, *Angry, Disgust, Fear, Happy, Sad, Surprise, Neutral* on webcam feed.
 
+## Result 
+
+![image](https://drive.google.com/uc?export=view&id=1HsKCmuscrES2ligIJPF_cwmefjBMg4w-)
+
 ## Overview
 
 The facial emotion detection model is based on three layer convolution plus two dense layers and at output using a softmax layer.
@@ -32,3 +36,7 @@ The facial emotion detection model is based on three layer convolution plus two 
 
 - One can also enhance this model with training by higher resolution images and more expanded network.
 > But this comes under the expence of more hardware power.
+
+## Reference
+"Challenges in Representation Learning: A report on three machine learning contests." I Goodfellow, D Erhan, PL Carrier, A Courville, M Mirza, B Hamner, W Cukierski, Y Tang, DH Lee, Y Zhou, C Ramaiah, F Feng, R Li, X Wang, D Athanasakis, J Shawe-Taylor, M Milakov, J Park, R Ionescu, M Popescu, C Grozea, J Bergstra, J Xie, L Romaszko, B Xu, Z Chuang, and Y. Bengio. arXiv 2013.
+Link - https://arxiv.org/abs/1307.0414
